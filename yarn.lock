@@ -538,10 +538,10 @@ detect-browser@^5.3.0:
   resolved "https://registry.yarnpkg.com/detect-browser/-/detect-browser-5.3.0.tgz#9705ef2bddf46072d0f7265a1fe300e36fe7ceca"
   integrity sha512-53rsFbGdwMwlF7qvCt0ypLM5V5/Mbl0szB7GPN8y9NCcbknYOeVVXdrXEq+90IwAfrrzt6Hd+u2E2ntakICU8w==
 
-doc-theme-323@^2.1.15:
-  version "2.1.15"
-  resolved "https://registry.yarnpkg.com/doc-theme-323/-/doc-theme-323-2.1.15.tgz#49f3501d7b8f9a5f3c95c8df754ea39a3715e599"
-  integrity sha512-/Y9nE6PdTIEDQoGexmUli2qdTDQaoV5sINIcZtHEW8h9TbeoDuO+d2EOV9ikZTgtbVAXr5Y9h6/vvn/qC6vZbQ==
+doc-theme-323@^2.1.23:
+  version "2.1.23"
+  resolved "https://registry.npmmirror.com/doc-theme-323/-/doc-theme-323-2.1.23.tgz#bf003502e7a40190ef11acb2c35dacc65ed22391"
+  integrity sha512-wAyYUvm3M4E7Li45jUj0T8NhvWRBEwtnYyVnDknjOziCBrPAarMR/kn2yI9pPKu2oHpYOwuJUvgSzt7i7QA1YA==
   dependencies:
     "@docsearch/css" "^3.3.0"
     "@docsearch/js" "^3.3.0"
@@ -555,7 +555,7 @@ doc-theme-323@^2.1.15:
     shiki "^0.12.1"
     viewerjs "^1.11.3"
     vite "^4.0.2"
-    vitepress-plugin-codeblocks-fold "^1.2.27"
+    vitepress-plugin-codeblocks-fold "^1.2.28"
     vue "^3.2.45"
 
 docsearch-react-234@^4.3.25:
@@ -789,9 +789,9 @@ vite@^4.0.2, vite@^4.4.9:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitepress-plugin-codeblocks-fold@^1.2.27:
+vitepress-plugin-codeblocks-fold@^1.2.28:
   version "1.2.28"
-  resolved "https://registry.yarnpkg.com/vitepress-plugin-codeblocks-fold/-/vitepress-plugin-codeblocks-fold-1.2.28.tgz#ee9cab0405d55ee3eb9893e54192a726acc3e0c5"
+  resolved "https://registry.npmmirror.com/vitepress-plugin-codeblocks-fold/-/vitepress-plugin-codeblocks-fold-1.2.28.tgz#ee9cab0405d55ee3eb9893e54192a726acc3e0c5"
   integrity sha512-ilckzzYmTIv3A9t4xiCSsTcYCfzCFzlsycV9nDtgvRTuk7Fy1lNHMZgPOk6ysB7PLFG/R71HsgQC44AZZKL8cw==
 
 vitepress@1.0.0-rc.14:

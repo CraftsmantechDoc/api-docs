@@ -32,11 +32,34 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         href: '/logo.jpg'
       }
     ]
+    // [
+    //   'script',
+    //   {},
+    //   `
+    // window.PandoraConfig = {
+    //   base: {
+    //     index_type: 'todo/wl',
+    //     selfpackagename: 'todo',
+    //   },
+    //   other: {
+    //     appkey: 'todo',
+    //     zone: 'en',
+    //     baseUrl: 'https://web-push.metaapp.cool'
+    //   }
+    // }
+    // `
+    // ],
+    // [
+    //   'script',
+    //   {
+    //     src: 'https://web-static-mir-01-qn.gpark.io/common/pandora/5.2.7/pandora_sdk.min.js'
+    //   }
+    // ]
   ],
   themeConfig: {
     pandora: {
-      type: 'template'
-      // version: '027'
+      type: 'api',
+      version: '027'
     },
     logo: '/logo.jpg',
     feedback: 'todo',
